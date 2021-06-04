@@ -155,6 +155,7 @@ func (bst *BST) Delete(e node.Comparable) bool {
 }
 
 // Traversal methods
+
 // inorder is a recursive helper function
 func inorder(node *node.TreeNode) {
 	if node == nil {
@@ -205,6 +206,8 @@ func (bst *BST) Postorder() {
 }
 
 // Utilities function
+
+// Returns the size of binary tree
 func (b *BST) GetSize() int {
 	return b.size
 }
