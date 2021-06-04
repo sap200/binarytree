@@ -4,17 +4,17 @@ Binary tree is a package that helps creating binary tree of custom elements
 
 Create a custom element 
 
-**
+```
 
 type Element struct {
 	x string
 }
 
-**
+```
 
 Let the custom element be comparable
 
-**
+```
 
 func (e Element) CompareTo(el node.Comparable) int {
 	if e.x < el.(Element).x {
@@ -26,11 +26,11 @@ func (e Element) CompareTo(el node.Comparable) int {
 	}
 }
 
-**
+```
 
 Perform Operations
 
-**
+```
 
 package main
 
@@ -46,4 +46,4 @@ func main() {
 	bin.Insert(Element{"George"})
 }
 
-**
+```
