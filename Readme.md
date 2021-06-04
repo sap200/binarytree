@@ -1,3 +1,9 @@
+<style>
+H1{color:Blue !important;}
+H2{color:DarkOrange !important;}
+p{color:Black !important;}
+</style>
+
 # Binary Tree
 
 Binary tree is a package that helps creating binary tree of custom elements
