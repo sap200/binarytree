@@ -200,6 +200,7 @@ func ExampleCreateBST() {
 
 	bst := CreateBST(e)
 	fmt.Println(bst)
+	fmt.Println(bst)
 }
 
 func ExampleBST_Insert() {
