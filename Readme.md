@@ -18,7 +18,7 @@ go get github.com/sap200/binarytree
 
 Create a custom element 
 
-```
+```go
 
 type Element struct {
 	x string
@@ -28,7 +28,7 @@ type Element struct {
 
 Let the custom element be comparable
 
-```
+```go
 
 func (e Element) CompareTo(el node.Comparable) int {
 	if e.x < el.(Element).x {
@@ -44,7 +44,7 @@ func (e Element) CompareTo(el node.Comparable) int {
 
 Perform Operations
 
-```
+```go
 
 package main
 
