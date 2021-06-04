@@ -2,6 +2,19 @@
 
 Binary tree is a package that helps creating binary tree of custom elements
 
+## Install
+
+Initiate a project
+
+Type 
+
+```
+go get github.com/sap200/binarytree
+
+```
+
+## Usage
+
 Create a custom element 
 
 ```
