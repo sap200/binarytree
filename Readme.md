@@ -47,3 +47,4 @@ func main() {
 }
 
 ```
+For more details check [example.go](example.go)
